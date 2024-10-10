@@ -27,42 +27,42 @@ sqlite3 MediaDB.db
 ```
 
 
-* Query 3:  Insert another video for the track "Voodoo", assuming that you don't know the TrackId, so your insert query should specify the TrackId directly.
+* Query 3:  What are the total number of unique customers for each state, ordered alphabetically by state?
 
 ```
 .read query3.sql
 ```
 
 
-* Query 4:  Write a query that lists all the tracks that have a ' in the name (e.g. Jorge Da Capadócia, o Samba De Uma Nota Só (One Note Samba)) (this is á,é,í,ó,ú)
+* Query 4:  Which states have more than 10 unique customers?
 
 ```
 .read query4.sql
 ```
 
 
-* Query 5: Creative addition. Make an interesting query that uses a JOIN of at least two tables.
+* Query 5: What are the names of the artists who made an album containing the substring "symphony" in the album title?
 
 ```
 .read query5.sql
 ```
 
 
-* Query 6: Creative addition. Make an interesting query that uses a GROUP statement and at least two tables.
+* Query 6: What are the names of all artists who performed MPEG (video or audio) tracks in either the "Brazilian Music" or the "Grunge" playlists?
 
 ```
 .read query6.sql
 ```
 
 
-* Query 7:  Write a query that lists all the customers that listen to longer-than-average tracks, excluding the tracks that are longer than 15 minutes. 
+* Query 7:  How many artists published at least 10 MPEG tracks?
 
 ```
 .read query7.sql
 ```
 
 
-* Query 8:  Write a query that lists all the tracks that are not in one of the top 5 genres with longer duration in the database. 
+* Query 8:  What is the total length of each playlist in hours? List the playlist id and name of only those playlists that are longer than 2 hours, along with the length in hours rounded to two decimals. 
 
 ```
 .read query8.sql
