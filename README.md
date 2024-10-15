@@ -3,7 +3,7 @@ Assignment 4 Submission by Qiong Wu
 
 ## How to run it
 
-Download chinook database from https://northeastern.instructure.com/courses/196655/files/28777296/download?wrap=1
+Download MediaDB database from https://northeastern.instructure.com/courses/196655/files/28777296/download?wrap=1
 
 Initialize the database by running
 
@@ -66,4 +66,11 @@ sqlite3 MediaDB.db
 
 ```
 .read query8.sql
+```
+
+* Query 9:  Creative addition: Define a new meaningful query using at least three tables, and some window function. Explain clearly what your query achieves, and what the results mean
+query lists each customer's full name, their the total cost of purchases, time of first purchase and ranks them based on total cost and the time of their first purchase
+
+```
+.read query9.sql
 ```

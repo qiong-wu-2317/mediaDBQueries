@@ -1,5 +1,5 @@
 --What are the names of all artists who performed MPEG (video or audio) tracks in either the "Brazilian Music" or the "Grunge" playlists?
-SELECT DISTINCT artists.Name FROM 
+SELECT DISTINCT artists.Name as artists FROM 
 artists 
 LEFT JOIN albums ON artists.ArtistId = albums.ArtistId
 LEFT join tracks on albums.AlbumId = tracks.AlbumId
